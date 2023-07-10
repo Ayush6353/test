@@ -1,13 +1,172 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(248, 197, 208, 0.171);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.form_m1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form_d1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input_f1 {
+  border-radius: 1rem;
+  border: none;
+  height: 3rem;
+  width: 25rem;
+  background-color: rgba(148, 148, 148, 0.253);
+  text-align: center;
+}
+.button_f1 {
+  border: none;
+  border-radius: 1rem;
+  height: 3rem;
+  width: 8rem;
+  background-color: rgba(236, 236, 236, 0.596);
+}
+.button_f2 {
+  border: none;
+  border-radius: 1rem;
+  height: 3rem;
+  width: 8rem;
+  background-color: rgba(115, 165, 231, 0.562);
+}
+.button_f1:hover {
+  background-color: rgb(233, 190, 190);
+  border: 1px solid rgb(255, 0, 0);
+}
+.button_f2:hover {
+  background-color: rgba(37, 119, 226, 0.514);
+  border: 3px solid rgb(0, 247, 255);
+}
+.remove_main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: rgba(233, 190, 190, 0.452);
+  height: 3rem;
+  width: 70rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+.removeBtn {
+  height: 2rem;
+  width: 5rem;
+  background-color: rgb(202, 142, 142);;
+  border: none;
+  border-radius: 1rem;
+  color: white;
+}   
+.inputData {
+  background-color: aquamarine;
+}
+.main_input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container_main3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contaner_m3 {
+  margin: 1rem;
+  padding: 2rem;
+  display: flex;
+  height: 17rem;
+  border-radius: 1.5rem;
+  width: 24rem;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 8px 16px 0 rgba(218, 58, 43, 0.048),
+    0 6px 20px 0 rgba(218, 58, 43, 0.089);
+}
+.card_img {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+.row{
+  padding: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+.card_i1 {
+  height: 6rem;
+  width: 6rem;
+  background-color: transparent;
+  border: 0.5rem solid #f0f4ff;
+  border-radius: 1rem;
+  box-shadow: 0 8px 16px 0 rgba(218, 58, 43, 0.048),
+    0 6px 20px 0 rgba(218, 58, 43, 0.089);
+}
+.card_i1_m3 {
+  border-radius: 0.5rem !important;
+}
+.spiner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 0rem;
+}
+.card_t1 {
+  width: 13rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.kiopn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #262a31;
+}
+.kipon_p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2f3135b9;
+  text-align: center;
+}
+.card_p_m3 {
+  margin-top: 0.8rem;
+  display: flex;
+  background-color: #fae9e9;
+  height: 5rem;
+  width: 21rem;
+  border-radius: 1rem;
+}
+.social_m3 {
+  margin-top: 1.5rem;
+  height: 2.6rem;
+}
+.profildata {
+  margin-top: 0.8rem;
+  width: 100%;
+  height: 7rem;
+  text-align: center;
+}
+.antd{
+  height: 100%;
+  width: 80%;
+}
+.antd_main{
+  display: flex;
+  justify-content: center;
 }

@@ -3,6 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -29,6 +35,133 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <!-- <h3 class="arrow">
+    <p id="Arrow1"></p>
+    <p id="Arrow2"></p>
+    <p id="Arrow3"></p>
+    <p id="Arrow4"></p>
+  </h3>
+  <button id="btn">change Color</button>
+  <p id="this_f"> represents: </p>
+  <p id="vehicle" style="color: rebeccapurple;"></p> -->
+    <!-- <script>
+
+  //========================== class functions ======================//    
+
+
+      class Car {
+        constructor(name) {
+          this.brand = name;
+        }
+        abc(){
+          return 'i have a '+this.brand;
+        }
+      }
+
+
+//========================= extends ===================================//
+
+      class Model extends Car {
+        constructor(name, mod) {
+          super(name);
+          this.model =mod;
+        
+        }
+        show() {
+          return this.abc()+ ',it is a'+" "+this.model;
+        }
+      }
+      {
+        const mycar = new Model("BM","JG");
+        document.write(mycar.show());
+      }
+
+    //========================== Arrow Function ===================//
+
+
+    Arrow1 = function(){     // Arrow 1
+        return 'Arrow 1';
+      };
+      document.getElementById('Arrow1').innerHTML= Arrow1();
+
+    Arrow2 = () => {     // Arrow 2
+      return 'Arrow 2';
+    }
+       document.getElementById('Arrow2').innerHTML= Arrow2();
+
+    Arrow3 = () =>  "Arrow 3" ;  // Arrow 3
+    document.getElementById('Arrow3').innerHTML= Arrow3();
+
+
+    Arrow4 = (value) => "Arrow"+" "+value ;  // Arrow 4
+    document.getElementById('Arrow4').innerHTML= Arrow4("4"); 
+
+
+  //=============================== (this) with Arrow functions =============================//
+ 
+ 
+  class Header {
+  
+  constructor(){
+    this.color = 'black';
+  }
+   changeColor = () => {
+    document.getElementById('this_f').innerHTML += this.color;
+   }
+}
+
+ const myheader = new Header();
+ //The window object calls the function:
+ window.addEventListener("load",myheader.changeColor);    
+
+ //A button object calls the function:
+ document.getElementById('btn').addEventListener("click",myheader.changeColor);
+
+
+
+//================================ Destructing Arrays =====================================//
+
+
+
+  function  Maths(a,b){
+     const add = a + b;
+     const subtract = a - b;
+     const multiply = a * b;
+     const divide = a / b;
+
+     return [add, subtract,multiply,divide];
+ }
+
+ const [add, subtract, multiply,divide] = Maths(7,4);
+
+ document.write("<br><br><br><p>Sum: "+add+"</p>");
+ document.write("<p>Difference: "+subtract+"</p>");
+ document.write("<p>Product: "+multiply+"</p>");
+ document.write("<p>Quotient: "+divide+"</p>");
+
+  
+//=================================== Destructuring Objects ================================//
+
+ const vehicleOne = {
+  brand: 'Ford',
+  model: 'Mustang',
+  type: 'car',
+  year: 2021, 
+  color: 'red'
+}
+
+myVehicle(vehicleOne);
+
+function myVehicle({type, color, brand, model}) {
+  const message = 'My ' + type + ' is a ' + color + ' ' + brand + ' ' + model + '.';
+
+  document.getElementById("vehicle").innerHTML = message;
+}
+
+
+//=============================================================================================//
+    </script> -->
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
