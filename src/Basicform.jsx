@@ -20,7 +20,6 @@ const getLocalStorage = () => {
 const Basicform = () => {
 
     const [email, setEmail] = useState("");
-    const [Vemail, setVEmail] = useState("");
     const [password, setPassword] = useState("");
     const [error, seterror] = useState("");
     const [editBtn, setEditBtn] = useState(true);
@@ -35,17 +34,14 @@ const Basicform = () => {
         if (!password && !email) {
             seterror("**enter your email and password!");
             toast.error("**enter your email and password!", { theme: "colored" });
-
         }
         else if (!patt.test(email)) {
             seterror("**enter your correct email!");
             toast.error("**enter your correct email!", { theme: "colored" });
-
         }
         else if (!passPatt.test(password)) {
             seterror("**enter your correct password!");
             toast.error("**enter your correct password!", { theme: "colored" });
-
         }
         else if (!password) {
             seterror("**enter your password!");

@@ -7,6 +7,28 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgba(248, 197, 208, 0.171);
 }
+.error-message{
+  color: red;
+}
+.main_form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.ClassForm{
+  margin-bottom: 10rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  background-color: #ffffff00;
+  height: 45rem;
+  width: 50rem;
+}
+.disply{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

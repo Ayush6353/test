@@ -7,7 +7,9 @@ import UseEffect from "./UseEffect";
 import UseEffect2 from "./UseEffect2";
 import HooksApi from "./HooksApi";
 import Loading from "./Loading";
+import ClassForm from "./ClassForm";
 import sdata from "./sdata";
+
 
 // const App = () => (
 //     <>
@@ -38,8 +40,9 @@ const App = () => (
             // console.log(arr[i]);
             return (
                 <>
-                    <Basicform />
-                    <HooksApi />
+                <ClassForm />
+                    {/* <Basicform />
+                    <HooksApi /> */}
                 </>
             )
         })}
