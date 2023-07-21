@@ -54,7 +54,7 @@ class ClassForm extends Component {
             err.Password = "Please enter your correct password!";
             toast.warning("**enter your correct password!", { theme: "colored" });
         }
-        else if (formData.Age < 18 && formData.Age === "") {
+        else if (formData.Age < 18 || formData.Age === "") {
             toast.error("**Please select your Age!", { theme: "colored" });
             err.Age = "Please select your Age";
         }

@@ -25,7 +25,6 @@ const Basicform = () => {
     const [editBtn, setEditBtn] = useState(true);
     const [allfachData, setAllfachData] = useState(getLocalStorage());
     const [EditID, setEditID] = useState(null);
-    const [isEditing, setIsEditing] = useState(false);
 
     const FormSubmit = (e) => {
         e.preventDefault();
